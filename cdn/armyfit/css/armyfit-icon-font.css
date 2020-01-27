@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'ArmyFit-Font';
+  src:  url('../fonts/ArmyFit-Font.eot?j75kfv');
+  src:  url('../fonts/ArmyFit-Font.eot?j75kfv#iefix') format('embedded-opentype'),
+    url('../fonts/ArmyFit-Font.ttf?j75kfv') format('truetype'),
+    url('../fonts/ArmyFit-Font.woff?j75kfv') format('woff'),
+    url('../fonts/ArmyFit-Font.svg?j75kfv#ArmyFit-Font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ArmyFit-Font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-certificate:before {
+  content: "\63";
+}
+.icon-print:before {
+  content: "\70";
+}
+.icon-checkmark-filled:before {
+  content: "\31";
+}
+.icon-checkmark-outline:before {
+  content: "\32";
+}
+.icon-audio:before {
+  content: "\68";
+}
+.icon-ppt:before {
+  content: "\67";
+}
+.icon-external:before {
+  content: "\6a";
+}
+.icon-spreadsheet:before {
+  content: "\66";
+}
+.icon-video:before {
+  content: "\73";
+}
+.icon-chart:before {
+  content: "\e906";
+}
+.icon-pdf:before {
+  content: "\64";
+}
+.icon-article:before {
+  content: "\61";
+}
+.icon-down:before {
+  content: "\5b";
+}
+.icon-family:before {
+  content: "\71";
+}
+.icon-physical:before {
+  content: "\77";
+}
+.icon-psycological:before {
+  content: "\65";
+}
+.icon-round-family:before {
+  content: "\51";
+}
+.icon-round-physical:before {
+  content: "\57";
+}
+.icon-round-psycological:before {
+  content: "\45";
+}
+.icon-round-social:before {
+  content: "\52";
+}
+.icon-round-spiritual:before {
+  content: "\54";
+}
+.icon-social:before {
+  content: "\72";
+}
+.icon-spiritual:before {
+  content: "\74";
+}
+.icon-up:before {
+  content: "\5d";
+}
