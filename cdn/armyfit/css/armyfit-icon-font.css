@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'ArmyFit-Font';
-  src:  url('../fonts/ArmyFit-Font.eot?j75kfv');
-  src:  url('../fonts/ArmyFit-Font.eot?j75kfv#iefix') format('embedded-opentype'),
-    url('../fonts/ArmyFit-Font.ttf?j75kfv') format('truetype'),
-    url('../fonts/ArmyFit-Font.woff?j75kfv') format('woff'),
-    url('../fonts/ArmyFit-Font.svg?j75kfv#ArmyFit-Font') format('svg');
+  src:  url('../fonts/ArmyFit-Font.eot?n8coy5');
+  src:  url('../fonts/ArmyFit-Font.eot?n8coy5#iefix') format('embedded-opentype'),
+    url('../fonts/ArmyFit-Font.ttf?n8coy5') format('truetype'),
+    url('../fonts/ArmyFit-Font.woff?n8coy5') format('woff'),
+    url('../fonts/ArmyFit-Font.svg?n8coy5#ArmyFit-Font') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-decrease:before {
+  content: "\3c";
+}
+.icon-increase:before {
+  content: "\3e";
+}
+.icon-excel-export:before {
+  content: "\78";
+}
 .icon-certificate:before {
   content: "\63";
 }
